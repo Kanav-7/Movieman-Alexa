@@ -1,0 +1,50 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "movie man",
+            "intents": [
+                {
+                    "name": "MovieIntent",
+                    "slots": [
+                        {
+                            "name": "movie",
+                            "type": "AMAZON.Movie"
+                        }
+                    ],
+                    "samples": [
+                        "give me information about {movie}",
+                        "give me some information about {movie}",
+                        "tell me about {movie}",
+                        "I want to know about {movie}",
+                        "explore {movie}",
+                        "tell me ratings of {movie}",
+                        "give me insight on {movie}",
+                        "give me data about {movie}",
+                        "give me plot about {movie}",
+                        "who is director of {movie}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help",
+                        "help me"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
